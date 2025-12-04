@@ -15,7 +15,7 @@ def get_neighbors(x, y, grid, diagonal=False):
     for dx, dy in directions:
         nx, ny = x + dx, y + dy
         if 0 <= nx < len(grid) and 0 <= ny < len(grid[0]):
-            neighbors.append((nx, ny))
+            neighbors.append(grid[nx][ny])
     return neighbors
 
 # Parses input into a 2d grid
