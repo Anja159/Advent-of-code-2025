@@ -1,7 +1,6 @@
 from scripts.utils import *
 
 file = "input.txt"
-whole = list(whole_input(file))
 
 skupaj = 50
 nula = 0
